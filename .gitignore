@@ -9,6 +9,9 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+/test/*
+/.idea/*
+/config/application.yml
 
 # Used by dotenv library to load environment variables.
 # .env
