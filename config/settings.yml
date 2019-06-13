@@ -1,0 +1,23 @@
+link:
+  rails_org: "https://www.railstutorial.org/"
+  rails_news: "http://news.railstutorial.org/"
+  rails_contact: "https://www.railstutorial.org/contact"
+  gavatar: "https://secure.gravatar.com/avatar/"
+  gavatar_email: "http://gravatar.com/emails"
+size_gravatar: 80
+validates:
+  email:
+    regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+    lenght: 255
+  name:
+    lenght: 50
+  password:
+    lenght:
+      minimum: 6
+user_per_page: 5
+post_per_page: 5
+max_image_size: 5
+max_content_length: 140
+password_reset_expired: 2
+gravatar_small_size: 30
+gravatar_medium_size: 30
